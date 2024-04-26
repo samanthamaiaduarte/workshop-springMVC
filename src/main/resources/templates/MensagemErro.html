@@ -1,0 +1,11 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+  	<div class="alert alert-danger alert-dismissible fade show" role="alert" th:if="${#fields.hasAnyErrors()}">
+  		<div th:each="error : ${#fields.detailedErrors()}">
+    		<span th:text="${error.message}"></span>
+  		</div>
+  		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  	</div>	  
+</html>
