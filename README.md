@@ -43,26 +43,27 @@ cd workshop-springMVC
 
 Run the application:
 ```bash
-java -DskipTestes -Dspring.profiles.active=h2db -jar target/workshop-springMVC-0.0.1-SNAPSHOT.jar
+java -DskipTests -Dspring.profiles.active=h2db -jar target/workshop-springMVC-0.0.1-SNAPSHOT.jar
 ```
 
 ### To run application in MySQL Database
 
 1. Create a empty database in MySQL
 
-
 2. Run the application replacing:<br/>
-a. SERVER_NAME for your server name or ip address <br/>
-b. PORT for your server port <br/>
-c. DATABASE_NAME for the database name you just create
+a. {SERVER_NAME} for your server name or ip address <br/>
+b. {PORT} for your server port <br/>
+c. {DATABASE_NAME} for the database name you just created<br/>
+d. {USERNAME} for the database access username<br/>
+e. {PASSWORD} for the database access password
 
 ```bash
-java -DskipTests -Dspring.profiles.active=mysql -DURL_DB=jdbc:mysql://localhost:3306/cobranca -DUSER_DB=dev -DPASS_DB=Root@1234 -jar target/workshop-springMVC-0.0.1-SNAPSHOT.jar
+java -DskipTests -Dspring.profiles.active=mysql -DURL_DB=jdbc:mysql://{SERVER_NAME}:{PORT}/{DATABASE_NAME} -DUSER_DB={USERNAME} -DPASS_DB={PASSWORD} -jar target/workshop-springMVC-0.0.1-SNAPSHOT.jar
 ```
 
-## Usage/Examples
+## Usage
 
-To access open your browser and go to:
+To access, open your browser and go to:
 ```
 http://localhost:8080/titulos
 ```
