@@ -51,7 +51,7 @@ java -DskipTestes -Dspring.profiles.active=h2db -jar target/workshop-springMVC-0
 1. Create a empty database in MySQL
 
 
-2. Run the application replacing:
+2. Run the application replacing:<br/>
 a. SERVER_NAME for your server name or ip address <br/>
 b. PORT for your server port <br/>
 c. DATABASE_NAME for the database name you just create
