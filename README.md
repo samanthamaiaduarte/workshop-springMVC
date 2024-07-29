@@ -1,10 +1,6 @@
 
 # Payment control app
 
-
-## Badges
-
-
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-6DB33F?style=flat&logo=spring&logoColor=white) 
 ![Thymeleaf](https://img.shields.io/badge/thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white)
