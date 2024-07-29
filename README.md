@@ -6,7 +6,7 @@
 ![Thymeleaf](https://img.shields.io/badge/thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-boostrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![H2 DB](https://img.shields.io/badge/H2Database-4479A1?style=flat&logo=openjdk&logoColor=white)
+![H2 DB](https://img.shields.io/badge/H2Database-0000BB?style=flat&logo=openjdk&logoColor=F1E712)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
 ### Challenge
